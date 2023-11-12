@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .firstname{
+            background-color: aqua;
+            color: white;
+        }
+        .lastname{
+            background-color: brown;
+            color: blanchedalmond;
+        }
+        .email{
+            background-color: lightcoral;
+            color: white;
+        }
+        #terms:checked{
+            accent-color:violet;
+        }
+        .button{
+            background-color: chartreuse;
+            color: black;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <form>
+        <!-- first Name -->
+        <label for="firstname">First Name : 
+        <input type="text" name = "firstname" class="firstname" placeholder="john" id="firstname" required minlength= max=20 />
+        </label>
+        <br>
+
+        <!-- Last Name -->
+        <label for="lastname">Last Name : 
+        <input type="text" name = "lastname"  class = "lastname" placeholder ="Doe" id = "lastname" required min = 3 max =20/>
+        </label>
+        <br>
+
+        <!-- Email -->
+        <label for="email">Email : 
+        <input type="email" name = "email" class="email" placeholder="john@gmail.com" id="email" required/>
+        </label>
+        <br>
+
+        <!-- Password -->
+        <label for="Password">Password :
+        <input type="password" name="password" id="password" placeholder="******" required min =8/>
+        </label>
+        <br>
+
+        <!-- confirm password -->
+        <label for="confirm_pass">Confirm Password: 
+        <input type="confirm_pass" name="confirm_pass" id="confirm_pass" placeholder="******" id = "confirm_pass" required/>
+        </label>
+        <br>
+
+        <!-- Age  -->
+        <label for="Age">Age : 
+        <input type="Age" name="Age" id="Age" placeholder="21" id="Age" required/>
+        </label>
+        <br>
+
+        <!-- Gender -->
+        <label for="gender">Gender : 
+            <!-- male -->
+            <input type="radio" name="gender" id="male" value="male" checked>
+            <label for="male">Male </label>
+
+            <!-- female -->
+            <input type="radio" name="gender" id="female" value="female" checked>
+            <label for="female">Female </label>
+
+            <!-- other -->
+            <input type="radio" name="gender" id="other" value="other" id="other">
+            <label for="other">Other </label>
+        </label>
+        <br>
+        
+
+        <!-- Terms -->
+        <label for="terms">Terms : 
+        <input type="checkbox" id="terms" required/>I agree to the terms and conditions 
+        </label>
+        <br>
+
+        <!-- register button -->
+        <button type="submit" class="button">register</button>
+    </form>
+</body>
+</html>

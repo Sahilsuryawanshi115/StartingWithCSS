@@ -1,0 +1,25 @@
+.main_heading {
+    color: aqua;
+}
+
+.main_subheading {
+    color: brown;
+}
+
+.main_title {
+    color: blueviolet;
+}
+
+.sub_title {
+    color: chartreuse;
+}
+
+.primary_button {
+    background-color: chocolate;
+    color: blanchedalmond;
+}
+
+.second-paragraph {
+    background-color: cornflowerblue;
+    color: ghostwhite;
+}

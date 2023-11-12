@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demonstartion</title>
+    <style>
+        .internal {
+            color: blueviolet;
+            font-size: medium;
+        }
+
+        .inline_internal {
+            color: blueviolet;
+            font-size: medium;
+        }
+
+        .internal_external {
+            color: blueviolet;
+        }
+
+        .internal_external {
+            color: blueviolet;
+        }
+
+        .inline_internal_external {
+            color: blueviolet;
+        }
+    </style>
+
+    <link rel="stylesheet" href="01 styles.css">
+</head>
+
+<body>
+    <!-- Inline CSS -->
+    <div style="color: aqua; font-size: small;">Inline CSS</div>
+    <!-- Internal CSS -->
+    <div class="internal">Internal CSS</div>
+    <!-- External CSS -->
+    <div class="external">External CSS</div>
+    <!-- Inline + Internal  -->
+    <div style="color: aqua;" class="inline_internal">Inline + Internal</div>
+    <!-- Inline + External -->
+    <div style="color: aqua;" class="inline_external">Inline + External</div>
+    <!-- Internal + External  -->
+    <div class="internal_external">Internal + External</div>
+    <!-- Inline + Internal + External -->
+    <div style="color: aqua;" class="inline_internal_external">Inline+Internal+External</div>
+</body>
+
+</html>
